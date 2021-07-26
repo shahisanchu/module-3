@@ -1,0 +1,113 @@
+body{
+	background-color: #3BCCD7;
+	color: #3BCCD7;
+	font-family: 'Zen Loop', cursive;
+}
+
+
+
+#header-nav{
+	background-color: #D5D02C;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand{
+	padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Zen Tokyo Zoo', cursive;
+  color: #557c3e;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom:0;
+  margin-left: 40px;
+  line-height: 1.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	text-align: center;
+	color: #ff8000;
+	font-size: 3em;
+	margin-bottom: 15px;
+}
+
+#nav-list a:hover{
+	background-color: #260033 ;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+#menu{
+	color: red;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+#main-content h3{
+	color: #ffff1a;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3:hover{
+	font-style: italic;
+}
+
+.row p{
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+}
+
+.row section{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+
+  
+
+/********** Small devices only **********/
+@media (min-width: 768px){
+	header .container{
+		height: 100px;
+		margin-left: 0px;
+	}
+
+	.navbar-brand h1{
+		line-height: 1.5;
+		font-size: 3em;
+	}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.row{
+		margin-left: 50px;
+		margin-right:50px ;
+	}
+} 
+  
